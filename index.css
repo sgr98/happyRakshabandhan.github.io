@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+
+html {
+    background-color: #daf3f8;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+  
+
+body {
+    display: block;
+}
+
+header {
+    padding: 4rem 8rem;
+    background: linear-gradient(rgba(254,190,16,0.9), rgba(255, 56, 0, 0.9));
+    height: 100vh;
+}
+
+.frame {
+    height: 100%;
+    background: #0f4c75;
+    padding: 2rem;
+    box-shadow: -2px -2px 2px rgba(255, 56, 0, 0.7), 2px 2px 3px rgba(0, 0, 0, 0.4), -10px -10px 15px rgba(255, 56, 0, 0.3), 10px 10px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: border-radius 0.4s;
+    -webkit-transition: border-radius 0.4s;
+    -moz-transition: border-radius 0.4s;
+    -ms-transition: border-radius 0.4s;
+    -o-transition: border-radius 0.4s;
+}
+
+.frame:hover {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.content {
+    font-family: 'Monoton', cursive;
+    font-size: 300%;
+    font-weight: 300;
+    word-spacing: 3px;
+    background: radial-gradient(#d3de32, #c1ca09);
+    height: 100%;
+    padding: 2rem 1rem;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: border 0.4s;
+    -webkit-transition: border 0.4s;
+    -moz-transition: border 0.4s;
+    -ms-transition: border 0.4s;
+    -o-transition: border 0.4s;
+    border: none;
+}
+
+.content:hover,
+.content:active {
+    border: 10px solid #86c4ba;
+}
+
+.content > p {
+    margin-top: 1rem;
+    margin-bottom: 15vh;
+}
+
+a > img {
+    width: 40px;
+    height: auto;
+    margin: 0 2rem;
+    transition: width 0.3s;
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+}
+
+a > img:hover, 
+a > img:active {
+    width: 60px;
+    height: auto;
+}
